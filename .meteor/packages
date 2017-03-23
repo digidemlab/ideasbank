@@ -38,8 +38,9 @@ nova:i18n-en-us         # default language translation
 ############ Your Packages ############
 
 accounts-password@1.3.4
-# accounts-twitter
-# accounts-facebook
+accounts-twitter@1.2.1
+accounts-facebook@1.1.1
 
 # customization-demo
-framework-demo
+# framework-demo
+# ideasbank

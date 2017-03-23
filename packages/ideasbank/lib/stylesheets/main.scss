@@ -1,0 +1,53 @@
+
+@import 'custom/fonts';
+@import 'custom/custom-variables'; // variables for bootstrap
+@import 'bootstrap/bootstrap';
+
+@import "nova-base/breakpoints";
+@import "nova-base/colors";
+@import "nova-base/variables";
+@import "nova-base/spinner";
+@import "nova-base/global";
+
+@import "nova-base/accounts";
+@import "nova-base/categories";
+@import "nova-base/cheatsheet";
+@import "nova-base/comments";
+@import "nova-base/header";
+@import "nova-base/newsletter";
+@import "nova-base/other";
+@import "nova-base/forms";
+@import "nova-base/posts";
+@import "nova-base/users";
+
+@import 'custom/custom-classes';
+
+
+.new-post-button{
+  margin-bottom: 15px;
+}
+
+code{
+  font-family: monospace;
+  background: #fafafa;
+  border: 1px solid #ddd;
+  padding: 3px 6px;
+}
+
+.avatar{
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+}
+
+.sr-only{
+  display: none;
+}
+
+.upvoted .upvote{
+  opacity: 0.3;
+}
+
+.posts-day h2{
+  font-weight: bold;
+}
