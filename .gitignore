@@ -48,3 +48,6 @@ jsdoc-conf.json
 jsdoc.json
 packages/nova-router/.npm
 npm-debug.log
+
+
+.meteor/version_conflict

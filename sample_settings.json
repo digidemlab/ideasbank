@@ -39,7 +39,8 @@
   "embedlyKey":"123foo",
   "mailChimpAPIKey": "123foo",
   "mailChimpListId": "123foo",
-
+  "newsletterFrequency": [1,2,3,4,5,6,7],
+  "newsletterTime": "14:20",
   "newsletterExcerptLength": 20,
   "postExcerptLength": 30,
 
