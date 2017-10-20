@@ -1,18 +1,118 @@
-.logo-hello {
-  display: flex;
-  justify-content: center;
-  color: #333;
+@import 'fonts';
+
+$white:                     #fff !default;
+$black:                     #000 !default;
+$teal:                      #00ffcc;
+$violet:                    #9a24f4;
+$magenta:                   #ff21f5;
+$yellow:                    #ffff00;
+$blue:                      #0425f3;
+
+html,
+body,
+#react-app,
+#wrapper {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
 }
 
-.post-red{
-  background-color: #FFD3D2;
+body {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.25rem;
 }
-.post-blue{
-  background-color: #D2F5FF;
+
+.main {
+  min-height: 55%;
+  height: auto;
 }
-.post-yellow{
-  background-color: #FBFFD2;
+
+.input-url {
+  display: none;
 }
-.post-green{
-  background-color: #D2FFD2;
+
+.posts-no-more {
+  display: none;
+}
+
+.header-wrapper,
+.footer-wrapper {
+  background-color: $magenta;
+}
+
+.footer {
+  color: $yellow;
+  padding: 1.5rem;
+  margin-bottom: 0;
+
+  a {
+    color: $yellow;
+    text-decoration: underline;
+  }
+}
+
+.users-account-menu > .btn,
+.logo h2.tagline {
+  font-family: 'BentonSans';
+  color: $yellow;
+  text-transform: uppercase;
+  font-size: 1.625rem;
+}
+
+h4 {
+  font-family: 'BentonSans';
+  text-transform: uppercase;
+  font-size: 1.625rem;
+}
+
+h3.posts-item-title {
+  font-family: 'BentonSans';
+  font-size: 5rem;
+
+  .posts-item-title-link {
+    color: $black;
+
+    &:hover {
+      color: $blue;
+      text-decoration: underline;
+    }
+  }
+}
+
+.posts-item {
+  padding: 5rem 0;
+}
+
+.posts-item:nth-child(even) {
+  background: #f7f7f7;
+
+  h3.posts-item-title .posts-item-title-link {
+    color: $violet;
+  }
+}
+
+.users-menu .btn-group > .btn {
+  color: $yellow;
+}
+
+.header .nav-new-post .btn-primary {
+    font-family: "BentonSans";
+    font-size: 1.5rem;
+    color: $blue;
+    background-color: #fff;
+    box-shadow: 8px 8px 0 0 $blue;
+    display: inline-block;
+    font-weight: normal;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 8px solid #0425f3;
+    padding: 1.25rem 1.5rem;
+    transition: all 0.2s ease-in-out;
+    border-radius: 0;
+}
+
+.small {
+  font-size: 0.875rem;
 }

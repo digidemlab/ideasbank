@@ -11,10 +11,10 @@ class HeadTags extends Component {
 
 		// default image meta: logo url, else site image defined in settings
 		let image = !!getSetting("siteImage") ? getSetting("siteImage"): getSetting("logoUrl");
-		
-		// overwrite default image if one is passed as props 
+
+		// overwrite default image if one is passed as props
 		if (!!this.props.image) {
-			image = this.props.image; 
+			image = this.props.image;
 		}
 
 		// add site url base if the image is stored locally
